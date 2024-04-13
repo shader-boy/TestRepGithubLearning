@@ -33,3 +33,11 @@ class LinkedList {
     this.head = head;
   }
 }
+
+{
+  secNum = 25;
+}
+
+const thirdNum = 3;
+
+const fourthNum = 4;
