@@ -58,7 +58,7 @@ class Queue2 {
   }
 
   size() {
-    return this.rear - this.front
+    return this.rear - this.front;
   }
 }
 
@@ -67,8 +67,14 @@ class Queue2 {
 // console.log(a+b);
 // console.log(typeof a + b)
 
-localStorage.setItem('name', 'bob');
-localStorage.setItem('name2', 'samir');
-console.log(localStorage.getItem('name2'))
+localStorage.setItem("name", "bob");
+localStorage.setItem("name2", "samir");
+console.log(localStorage.getItem("name2"));
 
-document.cookie = 'name=bob; expires=' + new Date(2024, 0, 19).toUTCString()
+document.cookie = "name=bob; expires=" + new Date(2024, 0, 19).toUTCString();
+
+// another test code added here to test Github connection
+
+function greetPerson(name) {
+  console.log(`Hi dear ${name}`);
+}
